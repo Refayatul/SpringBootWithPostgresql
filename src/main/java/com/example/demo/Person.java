@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="table_1")
+@Table(name = "table_1")
 public class Person {
 
     @Id
@@ -13,12 +13,4 @@ public class Person {
     private Long id;
     private String name;
     private String email;
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
 }
